@@ -6,7 +6,7 @@ class Hash
     new_array = []
     self.each{|key, val|
       if val == arguments
-        new_array.push(self.key)  
+        new_array.push(key)  
       end 
     }
     new_array
