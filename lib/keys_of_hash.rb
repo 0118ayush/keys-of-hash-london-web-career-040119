@@ -5,7 +5,7 @@ class Hash
     
     self.each{|key, val|
       if val == arguments
-        self.key  
+        self.keys  
       end 
     }
   end
