@@ -8,7 +8,6 @@ class Hash
       if self.include?(arguments)
         new_array.push(key)  
       end 
-      #binding.pry
     }
     new_array
   end
