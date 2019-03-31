@@ -5,8 +5,9 @@ class Hash
     
     self.each{|key, val|
       if val == arguments
-        self.keys  
+        keys_array = self.keys  
       end 
     }
+    keys_array
   end
 end
