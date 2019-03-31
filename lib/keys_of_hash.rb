@@ -6,7 +6,7 @@ class Hash
     new_array = []
     :a.each{|key, val|
       if val == arguments
-        new_array.push(self.keys)  
+        new_array.push(:a.key)  
       end 
     }
     new_array
