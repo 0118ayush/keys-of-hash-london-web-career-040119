@@ -8,7 +8,7 @@ class Hash
       if val == arguments
         new_array.push(key)  
       end 
-      binding.pry
+      #binding.pry
     }
     new_array
   end
