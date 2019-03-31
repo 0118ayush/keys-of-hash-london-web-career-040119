@@ -9,6 +9,6 @@ class Hash
         new_array.push(key)  
       end 
     }
-    
+    binding.pry
   end
 end
