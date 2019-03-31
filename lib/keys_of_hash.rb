@@ -5,7 +5,7 @@ class Hash
     
     new_array = []
     self.each{|key, val|
-      if val.include?(arguments)
+      if arguments.include?(val)
         new_array.push(key)  
       end 
     }
