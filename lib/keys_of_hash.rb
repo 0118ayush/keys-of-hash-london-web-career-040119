@@ -1,7 +1,7 @@
 require "pry"
 
 class Hash
-  def keys_of(*arguments)
+  def self.keys_of(*arguments)
     
     new_array = []
     self.each{|key, val|
