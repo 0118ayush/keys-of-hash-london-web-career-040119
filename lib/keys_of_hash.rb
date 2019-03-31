@@ -9,5 +9,6 @@ class Hash
         new_array.push(key)  
       end 
     }
+    new_array
   end
 end
